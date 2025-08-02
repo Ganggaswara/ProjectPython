@@ -4,22 +4,6 @@ Welcome to my personal repository documenting my journey in learning **Python pr
 This repo contains a collection of small to medium-sized projects I've built to practice, explore, and understand various concepts in Python — from the very basics to real-world applications.
 
 ---
-
-## 📚 What You'll Find Here
-
-| Folder / File | Description |
-|---------------|-------------|
-| `01_hello_world.py` | My very first Python program — the classic! |
-| `02_tip_calculator.py` | Calculates how much each person pays, including tip |
-| `03_password_generator.py` | Random password generator using letters, symbols, numbers |
-| `04_caesar_cipher/` | Encrypt & decrypt messages using Caesar cipher |
-| `05_hangman_game/` | Classic hangman game using loops and ASCII art |
-| `06_secret_auction.py` | Simulated secret bidding game with highest-bid logic |
-| `07_calculator.py` | Interactive CLI calculator with continuous calculation support |
-| ... | *(More projects will be added as I continue learning!)* |
-
----
-
 ## 🧠 Topics Covered
 
 - 📝 Variables, data types, and input/output
