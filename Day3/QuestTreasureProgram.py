@@ -1,71 +1,3 @@
-# height = int(input("What's ur height in cm ? "))
-# age = int(input("How old are you? "))
-# bill = 0
-
-# if height >= 120 :
-#     print("U can ride")
-#     if age < 12 :
-#         bill += 5
-#         print("U must pay $5")
-#     elif age <=18 :
-#         bill += 7
-#         print("U must pay $7")
-#     elif age == 45 and age <= 55 :
-#         bill += 0
-#         print ("U must pay $0")
-#     else :
-#         bill = 12
-#         print("U must pay $12")
-
-#     photos = input("Do u want to take a photos (y/n) ? ").lower()
-#     if photos == "y" :
-#         print(f"ur total bill is ${bill + 3}")
-#     elif photos == "n" :
-#         print(f"The total bill is ${bill}")
-#     else :
-#         print (" Please write only (y/n) ")
-# else:
-#     print("U can't ride")
-
-# print("~~ Welcome To Gangga Pizza Delivery! ~~")
-# size = input("What's size the pizza do u want? S, M or L ? ").upper()
-# pepperoni = input("Do u want pepperoni on ur pizza (y/n) ? ").lower()
-# cheese =input("Do u want extra cheese on ur pizza (y/n) ? ").lower()
-# bill = 0
-
-# if size == "S" :
-#     bill = 15
-#     if pepperoni == "y":
-#         bill += 2
-#         if cheese == "y" :
-#             print(f"ur total bill is ${bill + 1}")
-#         else :
-#             print(f"ur total bill is ${bill}")
-#     else:
-#         print(f"ur total bill is ${bill}")
-# elif size == "M" :
-#     bill = 20
-#     if pepperoni == "y":
-#         bill += 3
-#         if cheese == "y" :
-#             print(f"ur total bill is ${bill + 1}")
-#         else :
-#             print(f"Ur total bill is ${bill}")
-#     else:
-#         print(f"ur total bill is ${bill}")
-# elif size == "L" :
-#     bill = 25
-#     if pepperoni == "y":
-#         bill += 3
-#         if cheese == "y" :
-#             print(f"ur total bill is ${bill + 1}")
-#         else :
-#             print(f"ur total bill is ${bill}")
-#     else :
-#         print(f"ur total bill is ${bill}")
-# else :
-#     print("Please choose ur size of pizza ^-^")
-
 print('''
                          ___ -___                                   
                     _wr""        "-q__                             
@@ -128,3 +60,4 @@ elif quest_1 == "right":
     print("HAHA u eat with the clown. Game Over.")
 else:
     print("Choose only left/right dumbass!")
+
