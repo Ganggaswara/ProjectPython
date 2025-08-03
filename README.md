@@ -1,60 +1,52 @@
-# 🐍 My Python Learning Journey 🚀
+# Number Guessing Game 🎯
 
-Welcome to my personal repository documenting my journey in learning **Python programming**.  
-This repo contains a collection of small to medium-sized projects I've built to practice, explore, and understand various concepts in Python — from the very basics to real-world applications.
+A simple Python terminal game where the player tries to guess a number between 1 and 100. The game offers two difficulty levels — `easy` and `hard` — each providing a limited number of guesses.
 
----
-## 🧠 Topics Covered
+## 🧠 How It Works
 
-- 📝 Variables, data types, and input/output
-- 🔁 Loops and conditionals
-- 📦 Functions and dictionaries
-- 🧮 Arithmetic and logic operations
-- 🕹️ CLI game development
-- 🔐 Basic cryptography (e.g. Caesar Cipher)
-- 🎲 Randomization and modular programming
-- 🔄 Code structure & readability
+- The computer randomly selects a number between 1 and 100.
+- You choose a difficulty level:
+  - **Easy**: 10 attempts
+  - **Hard**: 5 attempts
+- After each guess, the program tells you whether your guess was too high or too low.
+- If you guess the number correctly within the allowed attempts, you win!
+- If not, the game ends and reveals the correct number.
 
----
+## 🚀 How to Run
 
-## 🎯 Purpose of This Repository
+1. Make sure you have Python installed (version 3.x).
+2. Place your `main.py` (containing the code) and `art.py` (containing `logo1`, `logo2`) in the same folder.
+3. Run the script:
 
-✅ Track my learning progress  
-✅ Practice writing clean, modular Python code  
-✅ Build a habit of documenting my learning  
-✅ Share with others who are also starting their Python journey  
-✅ Showcase my skills and growth over time
+```bash
+python main.py
+```
 
----
+## 📁 File Structure
 
-## 📌 How to Use
+```
+.
+├── main.py        # Game logic
+├── art.py         # ASCII art for logos
+└── README.md      # Project documentation
+```
 
-Feel free to:
-- Browse the project folders
-- Run the scripts in your terminal or IDE
-- Use my code as reference or inspiration
-- Fork the repo and start your own learning journey!
+## 🛠 Features
 
-> 💡 *Each project may have its own README or inline comments to explain the logic.*
+- Replay option after each game
+- Clean console at game restart (`print("\n" * 20)`)
+- Separated logic for different difficulty levels
 
----
+## 🖼 Sample ASCII Art
 
-## 🔄 Future Plans
+Defined in `art.py`:
+```python
+logo1 = "..."  # Welcome logo
+logo2 = "..."  # Goodbye logo
+```
 
-- [x] Build basic Python scripts
-- [ ] Learn object-oriented programming (OOP)
-- [ ] Explore data analysis with pandas and matplotlib
-- [ ] Try building simple web apps with Flask
-- [ ] Learn about APIs and automation
-- [ ] Dive into testing and best practices
+Feel free to customize the art to make the game more fun!
 
----
+## 📌 License
 
-## 🙋 About Me
-
-I'm a Python enthusiast on a mission to become better every day — whether you're here to learn, review, or collaborate, you're always welcome!
-
----
-
-### ⭐️ If you find this helpful or inspiring, feel free to give it a star and follow my journey!
-
+MIT License — free to use and modify.
