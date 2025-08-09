@@ -1,5 +1,4 @@
 from art import logo
-from data_coffee import espresso, latte, cappucino
 from art import thanks
 
 
@@ -146,3 +145,4 @@ while machine_on:
         machine_on = False
     elif choice not in ["espresso", "latte", "cappucino", "report", "off"]:
         print("Invalid choice. Please select espresso/latte/cappucino")
+
